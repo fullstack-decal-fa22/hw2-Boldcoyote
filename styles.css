@@ -11,6 +11,15 @@
   align-items: center;
 }
 
+.label {
+  color: blue;
+}
+
+.label:hover {
+  color: red;
+  font-size: 150%;
+}
+
 h2 {
   font-size: medium;
   font-weight: 200;
@@ -40,7 +49,7 @@ h2 {
 }
 
 .narrow {
-  height: 17.5%;
+  height: 16.65%;
 }
 
 .wide {
@@ -60,6 +69,10 @@ h2 {
 
 /* QUESTION 1 */
 
+.red {
+  background-color: red;
+}
+
 .orange {
   background-color: orange;
 }
@@ -76,7 +89,7 @@ h2 {
   background-color: blue;
 }
 
-.lightblue {
+.light-blue {
   background-color: lightblue;
 }
 
@@ -90,6 +103,10 @@ h2 {
 
 .black {
   background-color: #000;
+}
+
+#white {
+  background-color: #fff;
 }
 
 /* BEGIN QUESTION 2 */
@@ -121,6 +138,9 @@ h2 {
 .romania-red {
   background-color: #e10017;
 }
+.container{
+  display: flex;
+}
 
 /* END QUESTION 3 */
 
@@ -130,7 +150,11 @@ h2 {
 }
 
 .mexico-img {
-  /* TODO */
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  max-width:100px;
+  max-height:100px;
 }
 
 .mexico-red {
@@ -149,18 +173,27 @@ h2 {
 
 /* For margin practice */
 .flag1 {
-  background-color: red;
-  /* TODO */
+  display: flex;
+  margin-right: 5px;
 }
 
 .flag2 {
-  background-color: blue;
-  /* TODO */
+  display: flex;
+  margin-left: 5px;
+}
+
+.Margin {
+  padding-right: 10px;
+  padding-left: 10px;
 }
 /* For padding practice */
+
 .padding-container {
   box-sizing: border-box;
   background-color: lightblue;
   background-clip: content-box, padding-box;
-  /* TODO */
+  padding-top: 20%;
+  padding-right: 20%;
+  padding-bottom: 20%;
+  padding-left: 20%;
 }
